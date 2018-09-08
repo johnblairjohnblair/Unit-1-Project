@@ -19,3 +19,5 @@ print("League Builder")
 #Print teams and players
 
 
+#Generate welcome letters
+
