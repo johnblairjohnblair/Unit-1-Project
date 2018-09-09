@@ -73,8 +73,8 @@ def welcome_letters():
             welcome_letter = open(letter_filename, "w")
             welcome_letter.write("Dear " + all_players[team][student]['guardians'] + ", \n\nCONGRATULATIONS!!\n\n"
                                  + all_players[team][student]['name'] + " has been selected to join the "
-                                 + team + "! \n\nOur first practice will be Wednesday, September 12th"
-                                          " at the school soccer field. \n\nBring snacks!")
+                                 + team + "! \n\nOur first practice will be Wednesday, September 12th at 7pm CT "
+                                          "at the school soccer field. \n\nBring snacks!")
 
 #Main, call all functions
 if __name__ == '__main__':
