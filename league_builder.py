@@ -13,7 +13,7 @@ raptors = {}
 def open_file():
     with open("soccer_players.csv", "r") as players_file:
         players_file = csv.reader(players_file)
-        players_file.next()
+        next(players_file)
         for row in players_file:
             players.update({row[0]: {
                 'name': row[0],
